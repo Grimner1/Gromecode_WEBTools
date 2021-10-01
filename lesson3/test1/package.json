@@ -1,0 +1,21 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:scripts": "babel ./src --out-dir=./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.6",
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5"
+  },
+  "dependencies": {
+    "core-js": "^3.18.1"
+  },
+  "description": ""
+}
