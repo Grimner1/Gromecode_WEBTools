@@ -39,10 +39,11 @@
 
 // window.addEventListener('storage', whenStorageChange); // ---- сюда дописать функцию которая будет исполняться, когда будет меняться локал сторедж;
 
-import { renderTasks } from './renderer.js';
-import { initTodoList } from './todoList.js';
+import { renderTasks } from "./renderer.js";
+import { initTodoList } from "./todoList.js";
+import "./index.scss";
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   renderTasks();
   initTodoList();
 });
