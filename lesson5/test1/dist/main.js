@@ -1,0 +1,1 @@
+(()=>{"use strict";var e={};(e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})})(e),(0,e.default)("github").then((e=>(e=>{const{name:o,company:t}=e;console.log(`${o} from ${t}`)})({name:e.name,company:e.location})))})();

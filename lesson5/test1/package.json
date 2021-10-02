@@ -1,0 +1,19 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:scripts": "webpack",
+    "watch:scripts": "webpack --mpde=development -p --devtool eval-source-maps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "web-cli": "^1.0.0-prealpha",
+    "webpack": "^5.56.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
