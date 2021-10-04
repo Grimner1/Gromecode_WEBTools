@@ -1,4 +1,6 @@
-module.export = {
+const path = require("path");
+
+module.exports = {
   entry: "./src/list/index.js",
   output: {
     filename: "bundle.js",
@@ -6,22 +8,21 @@ module.export = {
   module: {
     rules: [
       {
-        test: /.js$/,
+        test: /\.js$/i,
         use: ["babel-loader"],
       },
       {
-        test: /.s?css$/,
+        test: /\.s?css$/i,
         use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
-        test: /.(jpg|png)$/,
+        test: /\.(png|jpg|gif)$/i,
         use: [
           {
             loader: "url-loader",
             options: {
-              limit: 8192,
-              name: "[name].[ext]",
               outputPath: "images",
+              limit: 8192,
             },
           },
         ],

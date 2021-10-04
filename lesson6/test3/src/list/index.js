@@ -41,7 +41,6 @@
 
 import { renderTasks } from "./renderer.js";
 import { initTodoList } from "./todoList.js";
-import "./index.scss";
 
 document.addEventListener("DOMContentLoaded", () => {
   renderTasks();
